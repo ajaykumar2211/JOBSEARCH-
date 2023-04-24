@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Search</title>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" type="text/css" href="job_search.css">
+<style>
+    header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+nav li:last-child {
+	margin-right: 0;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+main {
+	margin: 0px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	padding: 10px;
+	margin-bottom: 0;
+}
+h2, h3 {
+	margin-top: 0;
+}
+a {
+	display: inline-block;
+	padding: 5px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+.footer {
+      padding: 0px;
+      margin: 0px;
+      background-color: grey;
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
+
+</style><script src="job_search.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Job Search</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Search Job</a></li>
+				<li><a href="#">Contact Us</a></li>
+	            <li><a href="#">About Us</a></li>
+
+    </ul>
+		</nav>
+	</header>
+    
+	
+    <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Featured Jobs</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="https://i0.wp.com/matchboxdesigngroup.com/app/uploads/2022/09/web-developer-coding-computer-language.jpg?resize=900%2C612&ssl=1" alt="Web Developer" style="width:100%">
+        <div class="w3-container">
+          <h3>Web Developer</h3>
+          <p class="w3-opacity">Requirements</p>
+          <p>olid knowledge and experience in programming applications.</p>
+<p>Proficient in JavaScript, HTML, CSS.</p>
+<p>Proficient in My SQL.</p>
+          <p><button class="w3-button w3-light-blue w3-block">Apply Now</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="https://cdn-eokfn.nitrocdn.com/diBQUISGKsmoTQlhuYAsruhMTNXpLtAP/assets/images/optimized/rev-8d57ca7/wp-content/uploads/2022/09/Job-opportunities-after-Diploma-in-graphic-design-1000x675.jpg" alt="Graphic Designer" style="width:100%">
+        <div class="w3-container">
+          <h3>Graphic Designer</h3>
+          <p class="w3-opacity">Requirements</p>
+          <p>Familiarity with design software and technologies (such as InDesign, Illustrator, Dreamweaver, Photoshop)</p>
+          <p>Excellent communication skills</p>
+          <p><button class="w3-button w3-light-blue w3-block">Apply Now</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="https://www.pathstream.com/blog/wp-content/uploads/Blog-Post-Templates-79-980x551.png.webp" alt="Marketing Manager" style="width:100%">
+        <div class="w3-container">
+          <h3>Marketing manager</h3>
+          <p class="w3-opacity">Requirements</p>
+          <p>Bachelor's degree in marketing, finance, business administration, or similar.</p>
+          <p>Two Years experiences</p>
+          <p>Proficiency in electronic marketing automation software such as HubSpot Marketing and Bitrix24.</p>
+          <p><button class="w3-button w3-light-blue w3-block">Apply Now</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<footer class="footer"> &copy; Job Search 2023</footer>
+</body>
+</html>
